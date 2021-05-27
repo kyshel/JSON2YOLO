@@ -302,7 +302,7 @@ if __name__ == '__main__':
     print('json_dir is : '+json_fullpath)
 
     if source == 'COCO':
-        convert_coco_json('../')  # directory with *.json
+        convert_coco_json(json_fullpath)  # directory with *.json
 
     elif source == 'infolks':  # Infolks https://infolks.info/
         convert_infolks_json(name='out',
